@@ -23,6 +23,22 @@ The project was built using a fictional servicing data migration scenario to sim
 
 ---
 
+## Case Study
+
+Business Problem: 
+During a data migration, organizations often manage thousands of source-to-target mappings across multiple systems. Reviewing these mappings manually is time-consuming and increases the risk of missing critical issues such as incomplete mappings, missing transformation rules, duplicated entries, or unassigned ownership. These errors can delay migrations, introduce data quality problems, and increase project costs.
+
+Solution:
+To address this challenge, I developed a Python-based data quality validation tool that automatically analyzes a multi-sheet business data mapping workbook. The application validates mapping completeness, identifies missing source and target fields, detects missing transformation rules, verifies mapping status and ownership, flags duplicate source mappings, and generates detailed Excel reports along with a summary report for quick review.
+
+Outcome:
+The application successfully automated the validation of the entire data mapping workbook and identified several data quality issues that would typically require manual review. Instead of searching through dozens of mapping records individually, users receive organized reports highlighting where problems exist, allowing teams to prioritize remediation before migration begins.
+
+Business Impact:
+Organizations can use this tool to improve the quality and consistency of their data migration process while reducing manual effort and review time. Automated validation helps identify issues earlier in the project lifecycle, supports stronger data governance practices, improves collaboration between business and technical teams, and reduces the risk of migrating incomplete or inaccurate data into production systems.
+
+---
+
 ## Technologies Used
 
 - Python
